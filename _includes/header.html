@@ -1,8 +1,7 @@
-<header>
-
-  <h1>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </h1>
+<header class="fixed w-full h-20 flex justify-between items-center py-6 px-4 bg-white shadow">
+  <a href="{{ "/" | relative_url }}">
+    <img src="assets/images/logo-black.png" class="h-8">
+  </a>
 
   <nav>
     {% include navigation.html navigation=site.data.navigation %}

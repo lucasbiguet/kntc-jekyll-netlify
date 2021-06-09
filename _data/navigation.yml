@@ -6,5 +6,5 @@
   url: /about
 - text: Tour
   url: /tour
-- text: Blog
-  url: /blog
+# - text: Blog
+#   url: /blog
