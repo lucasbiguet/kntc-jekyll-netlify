@@ -6,3 +6,7 @@ section: home
 intro_paragraph: >
   Pop-Rock band from Lyon, France
 ---
+
+## Duality
+
+New single out now

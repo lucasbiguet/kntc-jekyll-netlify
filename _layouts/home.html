@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
+  <div class="h-screen pt-20">
+    <div class="h-5/6 bg-fixed bg-cover bg-center shadow-2xl" style="background-image: url(assets/images/bg-home.jpg)"></div>
 
-  <img src="assets/images/bg-home.jpg" class="shadow-2xl">
+    <img src="assets/images/logo-white.png" class="mx-auto h-24 -mt-12 md:h-48 md:-mt-24">
 
-  <img src="assets/images/logo-white.png" class="mx-auto h-24 -mt-12 md:h-48 md:-mt-24">
+    {% if page.intro_paragraph and page.intro_paragraph != '' %}
+      {{ page.intro_paragraph | markdownify }}
+    {% endif %}
+  </div>
 
-  {% if page.intro_paragraph and page.intro_paragraph != '' %}
-    {{ page.intro_paragraph | markdownify }}
+  {% if content %}
+    <div class="py-24">
+      {{ content }}
+    </div>
   {% endif %}
 
-  {{ content }}
-
-  <div class="container max-w-5xl mx-auto py-10 text-center">
+  <div class="shadow-inner bg-gradient-to-b from-gray-100 to-gray-200 via-gray-100 mx-auto text-center py-24">
     <h2>Newsletter</h2>
 
     <p>Subscribe to KNTC newsletter to get the latest news and exclusive content !</p>
@@ -20,4 +25,14 @@ layout: default
     <div class="max-w-md mx-auto">
       {% include newsletter-form.html %}
     </div>
+  </div>
+
+  <div class="flex flex-row gap-2 lg:gap-4 justify-center py-12">
+    {% for icon in site.icons %}
+      <div class="w-12">
+        <a href="{{ icon.href }}" title="{{ icon.name }}">
+          {{ icon.content }}
+        </a>
+      </div>
+    {% endfor %}
   </div>

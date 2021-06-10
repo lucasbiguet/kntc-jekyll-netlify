@@ -86,3 +86,7 @@ exclude:
 
 plugins:
   - jekyll-postcss
+
+collections:
+  icons:
+    sort_by: position

@@ -1,5 +1,5 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="flex gap-3 md:gap-5">
+<ul class="flex gap-3 md:gap-5 uppercase font-montserrat font-semibold tracking-wide">
 {% for item in include.navigation %}
   <li>
     <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>

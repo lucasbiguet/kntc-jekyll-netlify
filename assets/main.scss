@@ -45,6 +45,7 @@
 
   a {
     @apply text-red;
+    @apply hover:text-red-light;
   }
   section {
     @apply my-5;
