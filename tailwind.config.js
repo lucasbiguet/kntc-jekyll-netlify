@@ -24,7 +24,11 @@ module.exports = {
         DEFAULT: "#c60800",
         dark: "#cf0a1d"
       }
-    }
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat'],
+      'roboto': ['Roboto']
+     }
   },
   variants: {
     extend: {},
