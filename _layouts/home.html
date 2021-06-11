@@ -1,19 +1,12 @@
 ---
 layout: default
 ---
-  <div class="h-screen pt-20">
-    <div class="h-5/6 bg-fixed bg-cover bg-center shadow-2xl" style="background-image: url(assets/images/bg-home.jpg)"></div>
-
-    <img src="assets/images/logo-white.png" class="mx-auto h-24 -mt-12 md:h-48 md:-mt-24">
-
-    {% if page.intro_paragraph and page.intro_paragraph != '' %}
-      {{ page.intro_paragraph | markdownify }}
-    {% endif %}
+  <div class="h-screen bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/bg-home.jpg)">
+    <img src="assets/images/logo-white.png" class="mx-auto h-24 md:h-48">
   </div>
 
   {% if content %}
-    <!-- TODO: fix custom h-visible class and remove style attr -->
-    <div class="h-visible mb-12" style="height: calc(100vh - 5rem);">
+    <div class="h-screen mb-12">
       {{ content }}
     </div>
   {% endif %}
