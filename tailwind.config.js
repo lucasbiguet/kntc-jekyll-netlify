@@ -7,7 +7,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        visible: 'calc(100vh - 5rem)' // TODO debug, does not work for some reason
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -29,7 +33,7 @@ module.exports = {
     fontFamily: {
       'montserrat': ['Montserrat'],
       'roboto': ['Roboto']
-     }
+    }
   },
   variants: {
     extend: {},
