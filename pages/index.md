@@ -5,7 +5,7 @@ permalink: /
 section: home
 ---
 
-<div class="h-screen text-white text-left">
+<div class="h-screen text-white text-left" id="duality">
   <div class="h-full bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/bg-duality.jpg)">
     <div class="flex justify-center">
       <div class="px-5 container max-w-2xl">
