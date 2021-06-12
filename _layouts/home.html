@@ -12,12 +12,10 @@ layout: default
   </div>
 
   {% if content %}
-    <div class="h-screen mb-12">
-      {{ content }}
-    </div>
+    {{ content }}
   {% endif %}
 
-  <div class="container mx-auto mb-12 max-w-lg">
+  <div class="container mx-auto my-12 max-w-lg">
     <div class="sm:bg-white sm:shadow sm:rounded-lg">
       <div class="px-5 py-12 sm:p-12 text-left">
         <h2>Newsletter</h2>
@@ -27,14 +25,4 @@ layout: default
         {% include newsletter-form.html %}
       </div>
     </div>
-  </div>
-
-  <div class="flex flex-row justify-between max-w-lg mx-auto mb-12 px-5">
-    {% for icon in site.icons %}
-      <div class="w-12">
-        <a href="{{ icon.href }}" title="{{ icon.name }}">
-          {{ icon.content }}
-        </a>
-      </div>
-    {% endfor %}
   </div>
