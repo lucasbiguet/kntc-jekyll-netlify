@@ -1,11 +1,20 @@
 ---
-layout: home
-title: Welcome
-permalink: /
-section: home
+layout: page
+meta_description: |
+  KNTC - Duality music video OUT NOW
+permalink: /duality
+section: duality
 ---
 
-<div class="h-screen text-white text-left">
+<div class="h-screen bg-fixed bg-cover bg-center" style="background-image: url(assets/images/duality-premiere.jpg)">
+  <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </div>
+</div>
+
+<div class="h-screen text-white text-left" id="duality">
   <div class="h-full bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/bg-duality.jpg)">
     <div class="flex justify-center">
       <div class="px-5 container max-w-2xl">
@@ -29,18 +38,6 @@ section: home
   </div>
 </div>
 
-<div class="h-screen text-left">
-  <div class="h-full bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/bg-red.jpg)">
-    <div class="flex justify-center">
-      <div class="p-5 container max-w-md">
-        <h2>New single out now</h2>
-        <a href="https://hypeddit.com/link/r3oq6j" class="block">
-          <img src="assets/images/duality.jpg" alt="Duality - OUT NOW" class="rounded-xl shadow-xl mb-5">
-        </a>
-        <div class="text-center">
-          <a href="https://hypeddit.com/link/r3oq6j" class="inline-block text-lg uppercase px-6 py-2 bg-white border-2 border-red hover:border-red-light shadow-xl rounded font-bold tracking-wide">Listen</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="h-screen text-white text-left mb-12 shadow" id="duality">
+  <div class="h-full bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/car.jpg)">
 </div>
