@@ -5,7 +5,7 @@ permalink: /
 section: home
 ---
 
-<div class="anim--cascad" data-animate="">
+<div class="mb-12 anim--cascad" data-animate="">
   <div class="h-full bg-fixed bg-cover bg-center" style="background-image: url(assets/images/bg-red.jpg)">
     <div class="py-16 w-11/12 max-w-md mx-auto lg:py-32">
       <h2 class="text-center mb-5 anim-fade-up">New single out now</h2>
