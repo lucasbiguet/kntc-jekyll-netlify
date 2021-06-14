@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+
   purge: [
     './_site/**/*.html',
 		'./_site/*.html'
@@ -8,6 +9,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        'app-height': 'var(--app-height)'
+      }
     },
     colors: {
       transparent: 'transparent',

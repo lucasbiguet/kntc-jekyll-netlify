@@ -6,7 +6,7 @@ permalink: /duality
 section: duality
 ---
 
-<div class="relative h-screen bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/duality-premiere.jpg)">
+<div class="relative h-app-height bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/duality-premiere.jpg)">
   <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-30"></div>
   <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,6 +37,6 @@ section: duality
   </div>
 </div>
 
-<div class="h-screen mb-12">
+<div class="h-app-height mb-12">
   <div class="h-full bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/car.jpg)">
 </div>
