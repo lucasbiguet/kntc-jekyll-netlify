@@ -10,7 +10,7 @@ section: home
     <div class="py-16 w-11/12 max-w-md mx-auto lg:py-32">
       <h2 class="text-center mb-5 anim-fade-up">New single out now</h2>
       <a href="https://hypeddit.com/link/r3oq6j" class="block anim-fade-up">
-        <img src="assets/images/duality.jpg" alt="Duality - OUT NOW" class="rounded-xl shadow-xl mb-5">
+        <img src="assets/images/duality.jpg" alt="Duality - OUT NOW" class="rounded-xl shadow-xl mb-5" loading="lazy">
       </a>
       <div class="text-center anim-fade-up">
         <a href="https://v13.net/2021/06/kntc-reach-a-new-level-of-catharsis-with-their-duality-music-video-premiere/" class="inline-flex items-center px-6 py-4 text-lg font-bold uppercase rounded-lg shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">

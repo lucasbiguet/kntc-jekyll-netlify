@@ -20,7 +20,7 @@ section: duality
     <div class="w-11/12 max-w-2xl mx-auto">
       <h2 class="text-center mb-5 anim-fade-up">Duality Première</h2>
       <a href="https://v13.net/2021/06/kntc-reach-a-new-level-of-catharsis-with-their-duality-music-video-premiere/" class="block anim-fade-up">
-        <img src="assets/images/duality-thumbnail.jpg" alt="Duality - OUT NOW" class="shadow-xl mb-5">
+        <img src="assets/images/duality-thumbnail.jpg" alt="Duality - OUT NOW" class="shadow-xl mb-5" loading="lazy">
       </a>
       <div class="flex mb-5 anim-fade-up">
         <p>
