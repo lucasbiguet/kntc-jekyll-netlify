@@ -87,6 +87,30 @@
       @include transitionDelayUp(1000ms, 200ms, 1, 10);
     }
   }
+
+  .header-is-scrolling {
+    @apply bg-white;
+    height: 4rem !important;
+    @apply shadow-lg;
+
+    .main-header {
+      &__logo-white {
+        @apply hidden;
+      }
+
+      &__logo-black {
+        @apply block;
+      }
+
+      &__link {
+        @apply text-red;
+
+        &:hover {
+          @apply text-red-light;
+        }
+      }
+    }
+  }
 }
 
 @tailwind components;
