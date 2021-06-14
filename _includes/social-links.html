@@ -1,6 +1,6 @@
-<div class="flex flex-row justify-between max-w-lg mx-auto mb-12 px-5">
+<div class="flex flex-wrap space-x-5 justify-center max-w-lg mx-auto mb-12 px-5 anim--cascad" data-animate="">
   {% for icon in site.icons %}
-    <div class="w-12">
+    <div class="w-9 lg:w-12 anim-fade-up">
       <a href="{{ icon.href }}" title="{{ icon.name }}">
         {{ icon.content }}
       </a>

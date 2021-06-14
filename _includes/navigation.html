@@ -1,8 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="flex gap-3 md:gap-5 uppercase font-montserrat font-semibold tracking-wide">
+<ul class="flex space-x-4 uppercase font-montserrat font-semibold tracking-wide">
 {% for item in include.navigation %}
-  <li>
-    <a href="{{ item.url }}"{% if item.url == navurl %} class="text-red-light"{% endif %}>{{ item.text }}</a>
+  <li class="anim-fade-up">
+    <a class="main-header__link transition-colors duration-500 ease-in-out text-white hover:text-red {% if item.url == navurl %}text-red-light{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
     {% if item.subitems %}
       {% include navigation.html navigation=item.subitems %}
     {% endif %}
