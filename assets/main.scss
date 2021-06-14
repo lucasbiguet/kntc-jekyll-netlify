@@ -4,7 +4,21 @@
 
 @tailwind base;
 
+
 @layer base {
+  @mixin transitionDelayUp($defaultduration, $stepDuration, $firstStep, $lastStep) {
+
+    $currentDuration: $defaultduration;
+
+    @for $i from $firstStep through $lastStep {
+      &:nth-child(#{$i}) {
+        transition-delay: $currentDuration;
+      }
+
+      $currentDuration: $currentDuration + $stepDuration;
+    }
+  }
+
   body {
     @apply font-roboto;
   }
@@ -42,10 +56,36 @@
 
   a {
     @apply text-red;
-    @apply hover:text-red-light;
+
+    &:hover {
+      @apply text-red-light;
+    }
   }
+
   section {
     @apply my-5;
+  }
+
+  .anim-fade-up {
+    @apply opacity-0;
+    transform: translate3d(0,10%,0);
+    @apply transition-all;
+    @apply duration-700;
+    @apply ease-in-out;
+  }
+
+  .in {
+    &.anim-fade-up,
+    .anim-fade-up {
+      @apply opacity-100;
+      transform: translate3d(0,0,0);
+    }
+  }
+
+  .anim--cascad {
+    .anim-fade-up {
+      @include transitionDelayUp(1000ms, 200ms, 1, 10);
+    }
   }
 }
 

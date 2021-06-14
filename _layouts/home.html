@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-  <div class="relative h-screen bg-fixed bg-cover bg-center flex flex-col justify-center" style="background-image: url(assets/images/bg-home.jpg)">
+  <div class="relative h-screen bg-fixed bg-cover bg-center flex flex-col justify-center anim--cascad" style="background-image: url(assets/images/bg-home.jpg)" data-animate="">
     <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-30 z-10"></div>
-    <img src="assets/images/logo-white.png" class="relative mx-auto h-24 md:h-48 z-20">
+    <img src="assets/images/logo-white.png" class="relative mx-auto h-24 md:h-48 z-20 anim-fade-up">
 
-    <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0">
+    <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0 anim-fade-up">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
@@ -16,12 +16,12 @@ layout: default
     {{ content }}
   {% endif %}
 
-  <div class="container mx-auto mt-12 lg:py-12 max-w-2xl">
+  <div class="container mx-auto mt-12 lg:py-12 max-w-2xl anim--cascad" data-animate="">
     <div class="sm:bg-white sm:shadow sm:rounded-lg">
       <div class="px-5 py-12 sm:p-12 text-left">
-        <h2>Newsletter</h2>
+        <h2 class="anim-fade-up">Newsletter</h2>
 
-        <p class="mb-2">Subscribe to KNTC newsletter to get the latest news and exclusive content !</p>
+        <p class="mb-2 anim-fade-up">Subscribe to KNTC newsletter to get the latest news and exclusive content !</p>
 
         {% include newsletter-form.html %}
       </div>

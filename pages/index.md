@@ -5,14 +5,14 @@ permalink: /
 section: home
 ---
 
-<div>
+<div class="anim--cascad" data-animate="">
   <div class="h-full bg-fixed bg-cover bg-center" style="background-image: url(assets/images/bg-red.jpg)">
     <div class="py-16 w-11/12 max-w-md mx-auto lg:py-32">
-      <h2 class="text-center mb-5">New single out now</h2>
-      <a href="https://hypeddit.com/link/r3oq6j" class="block">
+      <h2 class="text-center mb-5 anim-fade-up">New single out now</h2>
+      <a href="https://hypeddit.com/link/r3oq6j" class="block anim-fade-up">
         <img src="assets/images/duality.jpg" alt="Duality - OUT NOW" class="rounded-xl shadow-xl mb-5">
       </a>
-      <div class="text-center">
+      <div class="text-center anim-fade-up">
         <a href="https://v13.net/2021/06/kntc-reach-a-new-level-of-catharsis-with-their-duality-music-video-premiere/" class="inline-flex items-center px-6 py-4 text-lg font-bold uppercase rounded-lg shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
           <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />

@@ -1,7 +1,7 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 <ul class="flex space-x-4 uppercase font-montserrat font-semibold tracking-wide">
 {% for item in include.navigation %}
-  <li>
+  <li class="anim-fade-up">
     <!-- TODO: je pense il faudrait changer la condition active elle s'applique plus si je met une transition -->
     <a class="transition-colors duration-500 ease-in-out text-white hover:text-red" href="{{ item.url }}"{% if item.url == navurl %} class="text-red-light"{% endif %}>{{ item.text }}</a>
     {% if item.subitems %}
