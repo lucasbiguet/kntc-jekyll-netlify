@@ -8,5 +8,5 @@
   url: /duality
 - text: Tour
   url: /tour
-# - text: Blog
-#   url: /blog
+- text: Contact
+  url: /contact
