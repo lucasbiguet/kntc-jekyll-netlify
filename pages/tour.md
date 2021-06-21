@@ -1,5 +1,6 @@
 ---
 layout: page
+title: KNTC - Tour dates
 meta_description: |
   KNTC tour dates and tickets
 permalink: /tour
