@@ -103,13 +103,17 @@
       }
 
       &__link {
-        @apply text-red;
+        @apply text-black;
 
         &:hover {
           @apply text-red-light;
         }
       }
     }
+  }
+
+  .main-header__link.active {
+    @apply text-red-light;
   }
 }
 
