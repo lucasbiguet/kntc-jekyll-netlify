@@ -1,11 +1,29 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="flex space-x-4 uppercase font-montserrat font-semibold tracking-wide">
-{% for item in include.navigation %}
-  <li class="anim-fade-up">
-    <a class="main-header__link transition-colors duration-500 ease-in-out text-white hover:text-red {% if item.url == navurl %}text-red-light{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
-    {% if item.subitems %}
-      {% include navigation.html navigation=item.subitems %}
-    {% endif %}
-  </li>
-{% endfor %}
+<ul class="hidden md:flex space-x-4 uppercase font-montserrat font-semibold tracking-wide">
+  {% for item in include.navigation %}
+    <li class="anim-fade-up">
+      <a class="main-header__link transition-colors duration-500 ease-in-out {% if item.url == navurl %}active{% endif %} text-white hover:text-red" href="{{ item.url }}">{{ item.text }}</a>
+    </li>
+  {% endfor %}
 </ul>
+
+<button class="md:hidden main-header__link transition-colors duration-500 ease-in-out text-white" onclick="document.getElementById('mobile-menu').classList.toggle('hidden');">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+
+<div id="mobile-menu" class="hidden bg-white absolute top-0 left-0 h-screen w-screen">
+  <button class="text-black mt-6 mr-6 absolute right-0" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+  <ul class="uppercase font-montserrat font-semibold tracking-wide h-full flex flex-col justify-center gap-6">
+    {% for item in include.navigation %}
+    <li>
+      <a class="text-black p-4 {% if item.url == navurl %}text-red-light{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
