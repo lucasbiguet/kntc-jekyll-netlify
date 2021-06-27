@@ -2,10 +2,10 @@
 
 - text: Home
   url: /
-# - text: About
-#   url: /about
 - text: Duality
   url: /duality
+- text: About
+  url: /about
 - text: Tour
   url: /tour
 - text: Contact
