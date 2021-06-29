@@ -33,25 +33,16 @@
 
   h1 {
     @apply text-4xl;
+    @apply md:text-5xl;
   }
   h2 {
-    @apply text-3xl;
+    @apply text-2xl;
+    @apply md:text-3xl;
   }
 
   h3 {
-    @apply text-2xl;
-  }
-
-  h4 {
     @apply text-xl;
-  }
-
-  h5 {
-    @apply text-lg;
-  }
-
-  h6 {
-    @apply text-lg;
+    @apply md:text-2xl;
   }
 
   a {
@@ -64,6 +55,10 @@
 
   section {
     @apply my-5;
+  }
+
+  p {
+    @apply mb-5;
   }
 
   .anim-fade-up {
