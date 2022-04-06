@@ -15,17 +15,6 @@ section: about
   </div>
 </div>
 
-<div class="px-2 py-12 container max-w-5xl mx-auto">
-  <p class="m-0">
-    We are a Rock duo from Lyon, FR
-    <br>
-    Our music comes from various places, from Pop to Metal, from classical to electronic.
-    <br>
-    Constantly in motion, always evolving.
-    <br>
-    <strong>Come dive with us</strong>
-  </p>
-</div>
 <div class="relative bg-fixed bg-cover bg-center h-24 flex flex-col justify-center" style="background-image: url(assets/images/about-title-bg-1.jpg)">
   <h2 class="text-white m-0 z-10">A Fresh New Start</h2>
   <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-40 z-0"></div>

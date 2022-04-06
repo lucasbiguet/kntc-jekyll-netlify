@@ -5,6 +5,22 @@ permalink: /
 section: home
 ---
 
+
+<div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-left" data-animate="">
+  <p>
+    We are a Rock duo from Lyon, FR
+    <br>
+    Our music comes from various places
+    <br>
+    From Pop to Metal, from classical to electronic
+    <br>
+    Constantly in motion, always evolving
+  </p>
+  <p class="text-xl uppercase">
+    <strong>Come dive with us</strong>
+  </p>
+</div>
+
 <div class="anim--cascad" data-animate="">
   <div class="h-full bg-fixed bg-cover bg-center" style="background-image: url(assets/images/bg-red.jpg)">
     <div class="py-16 w-11/12 max-w-md mx-auto lg:py-32">
@@ -13,13 +29,12 @@ section: home
         <img src="assets/images/skippingstones.jpg" alt="Skipping Stones - OUT NOW" class="rounded shadow-xl mb-5" loading="lazy">
       </a>
       <div class="text-center anim-fade-up">
-        <!-- <a href="https://youtu.be/AsJdtw-vOv4" target="_blank" rel="noopener nofollow" class="inline-flex items-center px-6 py-4 text-lg font-bold uppercase rounded-lg shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <a href="https://kntcband.bandcamp.com/track/skipping-stones" target="_blank" rel="noopener nofollow" class="ml-1 inline-flex items-center px-6 py-4 text-lg font-bold uppercase rounded-lg shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
-          <span class="ml-1">Watch</span>
-        </a> -->
+          <span class="ml-1">Buy</span>
+        </a>
         <a href="https://hypeddit.com/8mewhk" target="_blank" rel="noopener nofollow" class="ml-1 inline-flex items-center px-6 py-4 text-lg font-bold uppercase rounded-lg shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
           <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
