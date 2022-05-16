@@ -5,20 +5,21 @@ permalink: /
 section: home
 ---
 
-
-<div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-left" data-animate="">
-  <p>
-    We are a Rock duo from Lyon, FR
-    <br>
-    Our music comes from various places
-    <br>
-    From Pop to Metal, from classical to electronic
-    <br>
-    Constantly in motion, always evolving
-  </p>
-  <p class="text-xl uppercase">
-    <strong>Come dive with us</strong>
-  </p>
+<div class="bg-cover bg-center" style="background-image: url(assets/images/bg-dark-hand.jpg)">
+  <div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-center text-white" data-animate="">
+    <p>
+      We are a Rock duo from Lyon, FR
+      <br>
+      Our music comes from various places
+      <br>
+      From Pop to Metal, from classical to electronic
+      <br>
+      Constantly in motion, always evolving
+    </p>
+    <p class="text-xl uppercase ">
+      <strong>Come dive with us</strong>
+    </p>
+  </div>
 </div>
 
 <div class="anim--cascad" data-animate="">
