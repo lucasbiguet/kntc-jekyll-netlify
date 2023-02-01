@@ -19,7 +19,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/spotify.png" class="h-10">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
@@ -27,7 +27,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/youtube.png" class="h-8">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
@@ -35,7 +35,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/apple.png" class="h-8">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
@@ -43,7 +43,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/deezer.png" class="h-8">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
@@ -51,7 +51,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/bandcamp.png" class="h-8">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
@@ -59,7 +59,7 @@ section:
     <div class="flex-auto flex items-center">
       <img src="assets/images/streaming/soundcloud.png" class="h-10">
     </div>
-    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-md shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+    <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
       Play
     </a>
   </div>
