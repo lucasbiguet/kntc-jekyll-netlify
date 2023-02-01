@@ -2,7 +2,6 @@
 layout: page
 title: KNTC - Hunting Hunters Hunting Preys NEW SINGLE OUT NOW
 permalink: /hunting
-section:
 ---
 
 <div class="flex flex-col md:flex-row md:mb-12 md:shadow-xl">
@@ -12,7 +11,7 @@ section:
     </div>
   </div>
 
-  <div class="mb-12 md:mb-0 px-5 sm:px-24 md:px-5 anim--cascad text-left flex flex-col justify-center" data-animate="">
+  <div class="mb-12 md:mb-0 px-5 sm:px-24 md:px-10 anim--cascad text-left flex flex-col justify-center" data-animate="">
     <div>
       <h1 class="text-black font-extrabold z-10 tracking-widest anim-fade-up table-caption mb-0">Hunting Hunters Hunting Preys</h1>
       <h2 class="uppercase text-gray-400 text-lg anim-fade-up mb-12">New single out now</h2>
