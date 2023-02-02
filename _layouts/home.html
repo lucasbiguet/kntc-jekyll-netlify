@@ -3,14 +3,15 @@ layout: default
 ---
   <div class="relative h-app-height bg-fixed bg-cover bg-center flex flex-col justify-center anim--cascad" style="background-image: url(assets/images/bg-home.jpg)" data-animate="">
     <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-30 z-10"></div>
-    <img src="assets/images/logo-white.png" class="relative mx-auto h-24 md:h-48 z-20 anim-fade-up" loading="lazy">
+    <img src="assets/images/logo-white.png" class="relative px-5 mx-auto w-full max-w-lg z-20 anim-fade-up" loading="lazy">
 
     <div class="mt-10 container px-5 mx-auto max-w-lg anim-fade-up z-20 text-left text-white" data-animate="">
       <p class="text-justify mb-0">
-        Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month (in French for now).
+        Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month.
+        <br/>(In French for now)
       </p>
 
-      <div class="bg-white bg-opacity-50 shadow rounded-lg">
+      <div class="bg-white bg-opacity-90 shadow rounded-lg">
         {% include newsletter-form.html %}
       </div>
     </div>
