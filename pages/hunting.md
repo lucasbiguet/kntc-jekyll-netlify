@@ -2,6 +2,13 @@
 layout: page
 title: KNTC - Hunting Hunters Hunting Preys NEW SINGLE OUT NOW
 permalink: /hunting
+links:
+  spotify: 'https://open.spotify.com/album/0703IvskmkWSHdYHPq7KgO'
+  youtube: 'https://youtu.be/Cq-KCNCyRR8'
+  apple: 'https://itunes.apple.com/album/id/1663961534'
+  deezer:
+  bandcamp:
+  soundcloud:
 ---
 
 <div class="flex flex-col md:flex-row md:mb-12 md:shadow-xl">
@@ -15,54 +22,18 @@ permalink: /hunting
     <div>
       <h1 class="text-black font-extrabold z-10 tracking-widest anim-fade-up table-caption mb-0">Hunting Hunters Hunting Preys</h1>
       <h2 class="uppercase text-gray-400 text-lg anim-fade-up mb-12">New single out now</h2>
-      <div class="flex mb-5 anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/spotify.png" class="h-10">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
-      <div class="flex mb-5 anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/youtube.png" class="h-8">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
-      <div class="flex mb-5 anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/apple.png" class="h-8">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
-      <div class="flex mb-5 anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/deezer.png" class="h-8">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
-      <div class="flex mb-5 anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/bandcamp.png" class="h-8">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
-      <div class="flex anim-fade-up">
-        <div class="flex-auto flex items-center">
-          <img src="assets/images/streaming/soundcloud.png" class="h-10">
-        </div>
-        <a href="" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-          Play
-        </a>
-      </div>
+      {% for link in page.links%}
+        {% if link[1] %}
+          <div class="flex mb-5 anim-fade-up">
+            <div class="flex-auto flex items-center">
+              <img src="assets/images/streaming/{{ link[0] }}.png" class="h-8">
+            </div>
+            <a href="{{ link[1] }}" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+              Play
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
