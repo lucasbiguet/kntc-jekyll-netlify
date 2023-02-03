@@ -1,22 +1,28 @@
 ---
 layout: default
 ---
-  <div class="relative h-app-height bg-fixed bg-cover bg-center flex flex-col justify-center anim--cascad" style="background-image: url(assets/images/bg-home.jpg)" data-animate="">
+  <div class="relative text-white h-app-height bg-fixed bg-cover bg-center flex flex-col justify-center items-center anim--cascad" data-animate="" style="background-image: url(assets/images/bg-home.jpg)">
     <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-30 z-10"></div>
-    <img src="assets/images/logo-white.png" class="relative px-5 mx-auto w-full max-w-lg z-20 anim-fade-up" loading="lazy">
-
-    <div class="mt-10 container px-5 mx-auto max-w-lg anim-fade-up z-20 text-left text-white" data-animate="">
-      <p class="text-justify mb-0">
-        Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month.
-        <br/>(In French for now)
-      </p>
-
-      <div class="bg-white bg-opacity-90 shadow rounded-lg">
-        {% include newsletter-form.html %}
+    <div class="px-5 max-w-lg z-20  mb-10">
+      <div href="/hunting" class="absolute w-28 sm:w-36 lg:w-44 bottom-5 right-5 p-2 sm:p-4 bg-white bg-opacity-80 anim-fade-up hover:bg-opacity-100">
+        <a href="/hunting" class="">
+          <span class="text-xs uppercase absolute bg-red text-white px-4 py-1 top-2 -left-2 font-montserrat font-bold">Out now !</span>
+          <img src="assets/images/hunting/single.jpg" alt="Hunting Hunters Hunting Preys - OUT NOW" class="rounded-sm shadow-xl" loading="lazy">
+        </a>
+      </div>
+      <img src="assets/images/logo-white.png" loading="lazy">
+      <p class="text-right uppercase font-montserrat font-extralight text-xl sm:text-xl">Modern Rock Duo - Lyon FR</p>
+      <div class="text-left">
+        <p class="text-justify mb-0 text-sm">
+          Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month. (In French for now)
+        </p>
+        <div class="bg-white bg-opacity-90 shadow rounded-lg">
+          {% include newsletter-form.html %}
+        </div>
       </div>
     </div>
 
-    <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0 anim-fade-up z-20">
+    <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0 z-20 anim-fade-up">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
