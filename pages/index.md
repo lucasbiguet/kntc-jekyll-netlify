@@ -6,19 +6,14 @@ section: home
 ---
 
 <div class="bg-cover bg-center" style="background-image: url(assets/images/bg-dark-hand.jpg)">
-  <div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-center text-white" data-animate="">
-    <p>
-      We are a Rock duo from Lyon, FR
-      <br>
-      Our music comes from various places
-      <br>
-      From Pop to Metal, from classical to electronic
-      <br>
-      Constantly in motion, always evolving
+  <div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-white text-left" data-animate="">
+    <h2>Stay up to date</h2>
+    <p class="text-justify text-sm">
+      Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month. (In French for now)
     </p>
-    <p class="text-xl uppercase anim-fade-up">
-      <strong>Come dive with us</strong>
-    </p>
+    <div class="bg-white bg-opacity-90 shadow rounded-lg">
+      {% include newsletter-form.html %}
+    </div>
   </div>
 </div>
 

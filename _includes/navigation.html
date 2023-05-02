@@ -2,7 +2,13 @@
 <ul class="hidden md:flex space-x-4 uppercase font-montserrat font-semibold tracking-wide">
   {% for item in include.navigation %}
     <li class="anim-fade-up">
-      <a class="main-header__link transition-colors duration-500 ease-in-out {% if item.url == navurl %}active{% endif %} text-white hover:text-red" href="{{ item.url }}">{{ item.text }}</a>
+      <a class="main-header__link transition-colors duration-500 ease-in-out {% if item.url == navurl %}active{% endif %} text-white hover:text-red" href="{{ item.url }}" target="{% if item.external %}_blank{% endif %}" rel="{% if item.external %}noopener nofollow{% endif %}">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+        </svg> -->
+
+        {{ item.text }}
+      </a>
     </li>
   {% endfor %}
 </ul>
@@ -22,7 +28,7 @@
   <ul class="uppercase font-montserrat font-semibold tracking-wide h-full flex flex-col justify-center gap-6">
     {% for item in include.navigation %}
     <li>
-      <a class="text-black p-4 {% if item.url == navurl %}text-red-light{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
+      <a class="text-black p-4 {% if item.url == navurl %}text-red-light{% endif %}" href="{{ item.url }}" target="{% if item.external %}_blank{% endif %}" rel="{% if item.external %}noopener nofollow{% endif %}">{{ item.text }}</a>
     </li>
     {% endfor %}
   </ul>

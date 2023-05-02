@@ -7,6 +7,20 @@ section: about
 
 <div class="relative h-app-height bg-fixed bg-cover bg-center anim--cascad flex flex-col justify-center" data-animate="" style="background-image: url(assets/images/about.jpg)">
   <h1 class="text-white z-10 tracking-wider">We are KNTC</h1>
+  <div class="z-10 container max-w-md mx-auto anim--cascad text-center text-white" data-animate="">
+    <p class="italic">
+      We are a Rock duo from Lyon, FR
+      <br>
+      Our music comes from various places
+      <br>
+      From Pop to Metal, from classical to electronic
+      <br>
+      Constantly in motion, always evolving
+    </p>
+    <p class="text-xl uppercase anim-fade-up">
+      <strong>Come dive with us</strong>
+    </p>
+  </div>
   <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-black opacity-30 z-0"></div>
   <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0 anim-fade-up">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">

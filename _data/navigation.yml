@@ -2,9 +2,12 @@
 
 - text: Home
   url: /
-- text: About
-  url: /about
 - text: Tour
   url: /tour
+- text: Store
+  url: https://store.kntcband.com
+  external: true
+- text: About
+  url: /about
 - text: Contact
   url: /contact
