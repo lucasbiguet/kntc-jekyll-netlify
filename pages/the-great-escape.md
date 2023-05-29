@@ -13,9 +13,9 @@ links:
 
 <div class="flex flex-col md:flex-row md:mb-12 md:shadow-xl anim--cascad" data-animate="">
   <div class="relative h-app-height bg-cover bg-bottom flex-auto flex flex-col justify-center items-center mb-12 md:mb-0" style="background-image: url(assets/images/the-great-escape/bg.jpg)">
-    <a href="https://store.kntcband.com/article/the-great-escape-cd" target="_blank" rel="noopener nofollow">
-      <img src="assets/images/the-great-escape/cd-the-great-escape.png" alt="The Great Escape - PREORDER NOW" loading="lazy">
-    </a>
+    <div class="h-64 md:w-2/3 md:mx-auto bg-cover bg-center" style="background-image: url(assets/images/hunting/thumbnail.jpg)">
+      <iframe class="w-full h-full" src="https://www.youtube.com/embed/Cq-KCNCyRR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div class="absolute text-white mx-auto pb-5 w-full flex justify-center bottom-0 z-20 anim-fade-up md:hidden">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-12 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
