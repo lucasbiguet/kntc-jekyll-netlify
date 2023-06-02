@@ -7,6 +7,10 @@ section: home
 
 <div class="bg-cover bg-center" style="background-image: url(assets/images/bg-dark-hand.jpg)">
   <div class="px-2 py-40 container max-w-md mx-auto anim--cascad text-white text-left" data-animate="">
+    <div class="px-5 max-w-md z-20 mb-10">
+      <img src="assets/images/logo-white.png" loading="lazy">
+      <p class="text-right uppercase font-montserrat font-extralight text-lg">Modern Rock Duo - Lyon FR</p>
+    </div>
     <h2>Stay up to date</h2>
     <p class="text-justify text-sm">
       Get our <strong>latest news, tour dates and exclusive content</strong> before everyone else ! We'll send you a newsletter per month. (In French for now)
@@ -18,10 +22,7 @@ section: home
 </div>
 
 <div class="flex flex-col items-center h-full bg-fixed bg-cover bg-center py-16 lg:py-32 anim--cascad text-white" data-animate="" style="background-image: url(assets/images/melatonin/bg-home.jpg)">
-  <div class="text-left px-5">
-    <h2 class="mb-0">Melatonin</h2>
-    <h3 class="mb-4 anim-fade-up -mt-2">Our latest single</h3>
-  </div>
+  <h2>Melatonin</h2>
   <div class="flex-none md:flex gap-8 sm:w-1/2 md:w-4/5 xl:2/3 max-w-5xl mb-8 px-5">
     <div class="bg-cover bg-center w-full mb-5 md:mb-0" style="background-image: url(assets/images/melatonin/thumbnail.jpg)">
       <iframe class="w-full h-64 md:h-full" src="https://www.youtube.com/embed/KtWAGzipo1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -39,9 +40,7 @@ section: home
 </div>
 
 <div class="flex flex-col items-center h-full bg-fixed bg-cover bg-center py-16 lg:py-32 anim--cascad text-white" data-animate="" style="background-image: url(assets/images/hunting/bg-home.jpg)">
-  <div class="text-left px-5">
-    <h2>Hunting Hunters Hunting Preys</h2>
-  </div>
+  <h2>Hunting Hunters Hunting Preys</h2>
   <div class="flex-none md:flex gap-8 sm:w-1/2 md:w-4/5 xl:2/3 max-w-5xl mb-8 px-5">
     <div class="bg-cover bg-center w-full mb-5 md:mb-0" style="background-image: url(assets/images/hunting/thumbnail.jpg)">
       <iframe class="w-full h-64 md:h-full" src="https://www.youtube.com/embed/Cq-KCNCyRR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,7 +69,8 @@ section: home
   </div>
 </div>
 
-<div class="flex flex-col items-center h-full bg-fixed bg-cover bg-center py-16 lg:py-32" style="background-image: url(assets/images/bg-mirrors.jpg)">
+<div class="flex flex-col items-center h-full bg-fixed bg-cover bg-center py-16 lg:py-32 text-white" style="background-image: url(assets/images/bg-mirrors.jpg)">
+  <h2>Mirrors</h2>
   <div class="w-11/12 max-w-3xl mx-auto">
     <div class="bg-cover bg-center" style="background-image: url(assets/images/mirrors-thumbnail.jpg)">
       <iframe class="w-full h-64 sm:h-96 mb-5" src="https://www.youtube.com/embed/Nt8gBSOQ9Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -79,6 +79,7 @@ section: home
 </div>
 
 <div class="flex flex-col items-center h-full bg-fixed bg-cover bg-center py-16 lg:py-32 text-white" style="background-image: url(assets/images/bg-duality.jpg)">
+  <h2>Duality</h2>
   <div class="w-11/12 max-w-3xl mx-auto">
     <div class="bg-cover bg-center" style="background-image: url(assets/images/mirrors-thumbnail.jpg)">
       <iframe class="w-full h-64 sm:h-96 mb-5" src="https://www.youtube.com/embed/AsJdtw-vOv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
