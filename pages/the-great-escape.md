@@ -3,12 +3,12 @@ layout: page
 title: KNTC - The Great Escape - Debut Album PREORDER NOW
 permalink: /the-great-escape
 links:
-  spotify: https://open.spotify.com/artist/4hFo9fA6648F0TgtqHdob8?si=UhYInrdwRS6t41MwwSOvXQ
-  youtube: https://www.youtube.com/@kntcband
-  apple: https://music.apple.com/us/artist/kntc/1404941921
-  deezer: https://www.deezer.com/fr/artist/15249169
-  bandcamp:
-  soundcloud:
+  spotify: https://open.spotify.com/album/3FPKYukJNzS9gTxBdo4O9k
+  youtube:
+  apple:
+  deezer: https://www.deezer.com/album/413078317
+  bandcamp: https://kntcband.bandcamp.com/album/the-great-escape
+  soundcloud: https://soundcloud.com/kntcband/sets/the-great-escape-promo
 ---
 
 <div class="flex flex-col md:flex-row md:mb-12 md:shadow-xl anim--cascad" data-animate="">
@@ -46,10 +46,10 @@ links:
         <h2 class="uppercase text-gray-400 text-sm sm:text-lg flex justify-between mb-12">
           <span>Debut album</span>
           <span>|</span>
-          <span class="text-right">Out June 2nd</span>
+          <span class="text-right">Out now</span>
         </h2>
       </div>
-      <h3 class="uppercase">Pre-order now</h3>
+      <h3 class="uppercase">Buy</h3>
       <div class="flex space-x-4 mb-12">
         <a href="https://store.kntcband.com/article/the-great-escape-cd" target="_blank" rel="noopener nofollow" class="w-full h-10 flex justify-center items-center text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
           <span class="mr-2">
@@ -68,8 +68,7 @@ links:
           <span>Digital</span>
         </a>
       </div>
-      <h3 class="uppercase mb-0">Don't miss out !</h3>
-      <p class="text-gray-400 text-justify">Follow us on your favorite streaming service to get a notification on release day</p>
+      <h3 class="uppercase">Stream</h3>
       {% for link in page.links%}
         {% if link[1] %}
           <div class="flex mb-5">
@@ -77,7 +76,7 @@ links:
               <img src="assets/images/streaming/{{ link[0] }}.png" class="h-8">
             </div>
             <a href="{{ link[1] }}" target="_blank" rel="noopener nofollow" class="h-10 ml-2 inline-flex items-center px-5 sm:px-10 text-lg font-bold uppercase rounded-sm shadow-sm text-white bg-red transition-colors duration-500 ease-smooth hover:bg-red-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-              Go
+              Listen
             </a>
           </div>
         {% endif %}
