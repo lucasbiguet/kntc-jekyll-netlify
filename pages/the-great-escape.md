@@ -23,7 +23,7 @@ links:
       <h2 class="uppercase text-sm sm:text-lg flex justify-between mb-12 text-grey-800">
         <span>Debut album</span>
         <span>|</span>
-        <span class="text-right">Out June 2nd</span>
+        <span class="text-right">Out Now</span>
       </h2>
     </div>
     <div class="md:hidden z-20 max-w-md px-5">
